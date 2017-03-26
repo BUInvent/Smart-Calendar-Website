@@ -121,9 +121,3 @@ animation:fade 1s;
                 opacity:1;
         }
 }
-
-
-/*removing "+Google Calendar" button*/
-div.subscribe-image{
-    display: none;
-}
