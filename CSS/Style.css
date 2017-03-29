@@ -92,17 +92,17 @@ ul.toptabs li a:hover {background-color: #ddd;}
 div.content {
     display: block;
     position: absolute;
-    left: 20px;
     top: 125px;
+    left: 25px;
     z-index: -1;
     overflow: auto;
-    color: hsl(0, 0%, 88%);
+    color: #800000;
     font-size: 30px;
 }
 
 /*h2 content style*/
 div.content h2 {
-    font-size: 40px;
+    color: teal;
 }
 
 /*h3 content style*/
@@ -116,6 +116,10 @@ div.content h3 {
 div.content textarea {
     background-color: #8c8c8c;
     font-size: 30px;
+}
+
+.tabbed {
+    padding-left: 50px;
 }
 
 
