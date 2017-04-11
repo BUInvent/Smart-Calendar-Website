@@ -159,3 +159,13 @@ animation:fade 1s;
                 opacity:1;
         }
 }
+
+
+a:link {
+    color: teal;
+}
+
+/* visited link */
+a:visited {
+    color: #800000;
+}
