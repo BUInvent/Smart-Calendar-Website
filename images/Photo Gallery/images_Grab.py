@@ -8,16 +8,16 @@ for files in types:
 
 # get all text in the Ads.html file and put in a string 
 # called htmlString
-os.chdir("..")
-with open('Ads.html', 'r') as myfile:
+os.chdir("../..")
+with open('PhotoGallery.html', 'r') as myfile:
     htmlString=myfile.read()
 
 # split the string in between the '<!--images-->'
 picString = htmlString.split("<!--images-->")
 
 # what goes before and after file names in Ads.html
-preFName = '<img class="mySlides" src="./images/'
-postFName = '" style="width:96%">'
+preFName = '<img class="Gallery" src="./images/Photo Gallery/'
+postFName = '">'
 
 # go through and chang newText to have the new files
 newText = ''
@@ -29,5 +29,5 @@ newText += '\n\t\t'
 htmlString = htmlString.replace(picString[1], newText)
 
 # write the htmlString into the Ads.html file
-writeFile = open("Ads.html", "w")
+writeFile = open("PhotoGallery.html", "w")
 writeFile.write(htmlString)

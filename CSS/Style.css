@@ -169,3 +169,8 @@ a:link {
 a:visited {
     color: #800000;
 }
+
+img.Gallery {
+    max-width: 30%;
+    display:block;
+}
