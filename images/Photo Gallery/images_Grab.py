@@ -17,7 +17,7 @@ picString = htmlString.split("<!--images-->")
 
 # what goes before and after file names in Ads.html
 preFName = '<img class="Gallery" src="./images/Photo Gallery/'
-postFName = '">'
+postFName = '"><br/>'
 
 # go through and chang newText to have the new files
 newText = ''
